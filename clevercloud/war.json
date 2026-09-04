@@ -1,0 +1,12 @@
+{
+  "deploy": {
+    "container": "TOMCAT9",
+    "war": [
+      {
+        "file": "VendorManagement.war",
+        "context": "/",
+        "checkMe": "/"
+      }
+    ]
+  }
+}
